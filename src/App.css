@@ -28,7 +28,6 @@ body{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  /* border: 1px solid black; */
 }
 
 .todo-input {
@@ -46,7 +45,6 @@ body{
   border: none;
   background-color: rgb(25, 25, 26);
   color: rgb(227, 225, 225);
-  transition: background-color 0.5s ease;
   font-weight: 700;
 }
 
