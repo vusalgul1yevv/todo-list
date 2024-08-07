@@ -8,31 +8,35 @@ body{
   justify-content: center;
 }
 
+#root {
+  height: 100vh;
+  width: 100%;
+}
+
 .todo-create {
   width: 100%;
-  height: 50px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-create div {
+  height: 100px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  /* border: 1px solid black; */
 }
 
 .todo-input {
-  border: 1px solid rgb(50, 49, 49);
   width: 700px;
   padding: 10px 15px;
+  border: 1px solid rgb(13, 13, 14);
   border-radius: 3px;
   outline: none;
-  transition: border 0.5s ease;
-}
-
-.todo-input:hover{
-  border: 1px solid rgb(16, 101, 192);
-  
-}
-
-.todo-input:active {
-  border: 1px solid rgb(16, 101, 192);
 }
 
 .todo-btn {
@@ -40,7 +44,7 @@ body{
   margin-left: 10px;
   border-radius: 3px;
   border: none;
-  background-color: rgb(16, 101, 192);
+  background-color: rgb(25, 25, 26);
   color: rgb(227, 225, 225);
   transition: background-color 0.5s ease;
   font-weight: 700;
@@ -52,3 +56,26 @@ body{
   outline: none;
 }
 
+.todo-icons{
+  margin-left: 10px;
+  width: 50px;
+  height: 80px;
+  border: none;
+  background: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-icon{
+  font-size: 20px;
+  margin-right: 10px;
+}
